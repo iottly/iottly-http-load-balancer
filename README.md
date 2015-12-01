@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 # iottly-http-load-balancer
-The *iottly-http-load-balancer* repo hosts the *nginx* configuration for the load balancer in front of:
+The *iottly-http-load-balancer* repo hosts the **[nginx](http://nginx.org/en/)** configuration for the load balancer in front of:
 - https://github.com/iottly/iottly-core
   - as a proxy-pass
 - https://github.com/iottly/iottly-console
