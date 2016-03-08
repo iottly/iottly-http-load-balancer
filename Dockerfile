@@ -23,5 +23,14 @@ MAINTAINER iottly
 ADD nginx_conf/conf.d /etc/nginx/conf.d
 
 # Expose ports
+# api:
 EXPOSE 8550
+
+# web socket:
+EXPOSE 8560
+
+# front-end:
+EXPOSE 8580
+
+
 
