@@ -34,3 +34,4 @@ EXPOSE 8580
 
 #production
 EXPOSE 80
+EXPOSE 443
