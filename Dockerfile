@@ -32,5 +32,5 @@ EXPOSE 8560
 # front-end:
 EXPOSE 8580
 
-
-
+#production
+EXPOSE 80
