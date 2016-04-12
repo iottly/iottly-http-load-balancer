@@ -20,7 +20,7 @@ FROM nginx
 MAINTAINER iottly
 
 # Add iottly configuration file from the current directory
-ADD nginx_conf/conf.d /etc/nginx/conf.d
+ADD nginx_conf_prod/conf.d /etc/nginx/conf.d
 
 # Expose ports
 # api:
