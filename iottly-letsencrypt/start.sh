@@ -10,7 +10,7 @@ docker run --rm -it --volumes-from iottlydocker_iottlyhttploadbalancer_1    \
     -v "`pwd`/letsencrypt/etc/letsencrypt:/etc/letsencrypt"                 \
     -v "`pwd`/letsencrypt/var/lib/letsencrypt:/var/lib/letsencrypt"         \
     lojzik/letsencrypt                                                      \
-    certonly --test-cert                                                    \
+    certonly                                                                \
     --email $EMAIL                                                          \
     -d $FEDOMAIN                                                            \
     -d $APIDOMAIN                                                           \
